@@ -1,0 +1,23 @@
+2016-08-18T16:08:11.748Z - info: Starting proxy on port 2001, will wait at most 15000 ms
+2016-08-18T16:08:15.195Z - info: Fetching https://www.tiaa.org (1 of 3)
+2016-08-18T16:08:15.475Z - error: Error: Could not locate Firefox on the current system
+    at Error (native)
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/firefox/binary.js:98:11
+    at promise.ControlFlow.runInFrame_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at goog.defineClass.notify (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at promise.Promise.notify_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at promise.Promise.notifyAll_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/async/run.js:130:15)
+From: Task: WebDriver.createSession()
+    at Function.webdriver.WebDriver.acquireSession_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:157:22)
+    at Function.webdriver.WebDriver.createSession (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:131:30)
+    at new Driver (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/firefox/index.js:277:36)
+    at Builder.build (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/builder.js:460:14)
+    at Object.module.exports.getDriver (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/lib/browsers/firefox.js:44:51)
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/lib/browsertime.js:107:64
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:721:13
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:269:32
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:44:16
+2016-08-18T16:08:15.476Z - info: Stopping proxy

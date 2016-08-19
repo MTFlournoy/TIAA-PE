@@ -1,0 +1,19 @@
+2016-08-18T16:08:12.285Z - info: stdout:Unable to find conf/bmp-logging.properties. Using default logging configuration.
+
+2016-08-18T16:08:12.886Z - error: stderr:INFO 08/18 16:08:12 n.l.b.p.Main         - Starting BrowserMob Proxy version 2.0.0
+
+2016-08-18T16:08:12.925Z - error: stderr:INFO 08/18 16:08:12 o.e.j.u.log          - jetty-2.0.0
+
+2016-08-18T16:08:12.958Z - error: stderr:INFO 08/18 16:08:12 o.e.j.u.log          - started o.e.j.s.ServletContextHandler{/,null}
+
+2016-08-18T16:08:13.598Z - error: stderr:INFO 08/18 16:08:13 o.e.j.u.log          - Started SelectChannelConnector@0.0.0.0:2001
+
+2016-08-18T16:08:13.966Z - error: stderr:INFO 08/18 16:08:13 n.l.b.p.j.h.HttpSer~ - Version Jetty/2.0.0
+
+2016-08-18T16:08:13.967Z - error: stderr:INFO 08/18 16:08:13 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2016-08-18T16:08:13.970Z - error: stderr:INFO 08/18 16:08:13 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:2000
+
+2016-08-18T16:08:13.970Z - error: stderr:INFO 08/18 16:08:13 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@3c7093d2
+
+2016-08-18T16:08:15.476Z - info: Stopped proxy process.

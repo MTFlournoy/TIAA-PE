@@ -1,0 +1,52 @@
+2016-08-18T16:07:49.326Z - info: [sitespeed] OS: 'darwin 15.5.0', Node.js: 'v6.3.0', sitespeed.io: '3.11.1', PhantomJS: '1.9.8', java: '1.7.0_25', browsertime: '0.12.0'
+2016-08-18T16:07:49.580Z - info: [sitespeed] Will analyze 1 page
+2016-08-18T16:07:49.582Z - info: [sitespeed] Running YSlow for https://www.tiaa.org [phantomjs]
+2016-08-18T16:08:13.599Z - info: [sitespeed] Queueing browsertime for https://www.tiaa.org firefox
+2016-08-18T16:08:13.600Z - info: [sitespeed] Running browsertime for firefox https://www.tiaa.org
+2016-08-18T16:08:15.476Z - error: [sitespeed] Error running browsertime: Error: Could not locate Firefox on the current system
+    at Error (native)
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/firefox/binary.js:98:11
+    at promise.ControlFlow.runInFrame_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at goog.defineClass.notify (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at promise.Promise.notify_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at promise.Promise.notifyAll_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/goog/async/run.js:130:15)
+From: Task: WebDriver.createSession()
+    at Function.webdriver.WebDriver.acquireSession_ (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:157:22)
+    at Function.webdriver.WebDriver.createSession (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:131:30)
+    at new Driver (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/firefox/index.js:277:36)
+    at Builder.build (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/selenium-webdriver/builder.js:460:14)
+    at Object.module.exports.getDriver (/usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/lib/browsers/firefox.js:44:51)
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/lib/browsertime.js:107:64
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:721:13
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:269:32
+    at /usr/local/lib/node_modules/sitespeed.io/node_modules/browsertime/node_modules/async/lib/async.js:44:16
+2016-08-18T16:08:15.713Z - error: [sitespeed] Could not generate HAR for https://www.tiaa.org { Error: ENOENT: no such file or directory, open '/Users/marcflournoy/security/sitespeed-result/www.tiaa.org/2016-08-18-12-07-48/data/har/firefox/s-www_tiaa_org.har'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.readFileSync (fs.js:508:33)
+    at Function.simplehar.readHar (/usr/local/lib/node_modules/sitespeed.io/node_modules/simplehar.sitespeed.io/lib/simplehar.js:150:12)
+    at simplehar (/usr/local/lib/node_modules/sitespeed.io/node_modules/simplehar.sitespeed.io/lib/simplehar.js:68:21)
+    at /usr/local/lib/node_modules/sitespeed.io/lib/siteHTMLRenderer.js:84:20
+    at Array.forEach (native)
+    at SiteHTMLRenderer.renderHAR (/usr/local/lib/node_modules/sitespeed.io/lib/siteHTMLRenderer.js:80:22)
+    at /usr/local/lib/node_modules/sitespeed.io/lib/analyzeOneSite.js:167:25
+    at processAnalysisResults (/usr/local/lib/node_modules/sitespeed.io/lib/analyze/analyzer.js:186:4)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/marcflournoy/security/sitespeed-result/www.tiaa.org/2016-08-18-12-07-48/data/har/firefox/s-www_tiaa_org.har' }
+2016-08-18T16:08:15.714Z - info: [sitespeed] Done analyzing urls
+2016-08-18T16:08:16.002Z - info: [sitespeed] Wrote file assets.html
+2016-08-18T16:08:16.002Z - info: [sitespeed] Wrote file domains.html
+2016-08-18T16:08:16.002Z - info: [sitespeed] Wrote file hotlist.html
+2016-08-18T16:08:16.002Z - info: [sitespeed] Wrote file errors.html
+2016-08-18T16:08:16.002Z - info: [sitespeed] Wrote file pages.html
+2016-08-18T16:08:16.003Z - info: [sitespeed] Wrote file rules.html
+2016-08-18T16:08:16.003Z - info: [sitespeed] Wrote file index.html
+2016-08-18T16:08:16.003Z - info: [sitespeed] Wrote file detailed-site-summary.html
+2016-08-18T16:08:16.003Z - info: [sitespeed] Wrote file s-www_tiaa_org.html
+2016-08-18T16:08:16.019Z - info: [sitespeed] Wrote results to /Users/marcflournoy/security/sitespeed-result/www.tiaa.org/2016-08-18-12-07-48
+2016-08-18T16:08:16.022Z - info: [sitespeed] The analyze took a few seconds (26 seconds)
